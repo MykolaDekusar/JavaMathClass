@@ -16,6 +16,11 @@ public class Main {
 		//proviamo ad usare Math.min per prendere il valore piu basso tra 2 numeri
 		double min = Math.min(a, b);
 		System.out.println(min);
+		//Math.round porta un numero decimale al valore intero piu vicino tipo 3.2 diventa 3
+		//3.6 diventa 4
+		//Math.floor porta un numero decimale sempre al valore intero piu basso es: 3.9 diventa 3
+		//Math.ceil invece porta un numero decimale sempre al valore intero piu alto es: 3.1 diventa 4
+		
 	}
 
 }
